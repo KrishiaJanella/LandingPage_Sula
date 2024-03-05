@@ -1,0 +1,300 @@
+.navigation{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: #fffafa;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.title{
+    justify-content: left;
+    
+}
+#navButtons{
+    display: flex;
+    margin-top: 15px;
+}
+#navButtons a:hover{
+    color: #7D7171;
+}
+#navButtons a{
+    margin-right: 50px;
+    margin-top: 50px;
+    color: #DD7777;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    background-color: #fffafa;
+    border-radius: 50%;
+    font-size: 13px;
+}
+
+.title>h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    margin: 4px 0px 0 0;
+    text-shadow: 3px 3px #fad3d3;
+    justify-content: left;
+    color: #DD7777;
+}
+
+.navIconsCont{
+    display: flex;
+}
+.navIconsCont img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+    
+}
+.navContainer > div:hover{
+    color: #7D7171;
+}
+.navIconsCont img:hover{
+    box-shadow: 0px 4px 4px #DD7777; /* Add a shadow effect */
+    border-radius: 50%;
+}
+
+.underline{
+    border: 0; 
+    border-top: 2px solid #DD7777; 
+    width: 25%; 
+    margin:0 auto;
+
+}
+.homepage{
+    margin-top: 450px;
+    margin-left: 450px;
+    justify-content: center;
+}
+nav img{
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    
+}
+.homepage img:hover{
+    box-shadow: 0px 4px 4px #DD7777; /* Add a shadow effect */
+    border-radius: 50%;
+}
+.home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('C:/Users/Krishia Janella Sula/Documents/HTML Programs/Initial Landing Page/Backgrounds/My Projects.png');
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(66, 57, 57, 0.692);
+    background-size: center;
+}
+
+.headings{
+    color: #DD7777;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    line-height: 5%;
+    text-shadow: 3px 3px #fad3d3;
+    margin-left: 2%;
+    text-align: center;
+}
+.aboutMe{
+    margin-top: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('C:/Users/Krishia Janella Sula/Documents/HTML Programs/Initial Landing Page/Backgrounds/About Me.png');
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(66, 57, 57, 0.692);
+    background-size: center;
+}
+#aboutMeButtons{
+    display: flex;
+    justify-content: center;
+}
+#aboutMeButtons img{
+    width: 200px;
+    height: auto;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+    
+.hover-image {
+    display: none;
+}
+.hoverAboutMe:hover .original-image {
+    display: none;
+}
+.hoverAboutMe:hover .hover-image {
+    display: block;
+    box-shadow: 0px 10px 10px #7D7171; /* Add a shadow effect */
+    border-radius: 5%;
+}
+
+.intro{
+    text-align: center;
+    margin: 20px 200px 0 200px;
+    color: #7D7171;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.childhood{
+    margin-top: 25px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('C:/Users/Krishia Janella Sula/Documents/HTML Programs/Initial Landing Page/Backgrounds/neutral.png');
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(66, 57, 57, 0.692);
+    background-size: center;
+}
+.aboutMeHeading{
+    color: #DD7777;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+.aboutMeContent{
+    display: flex;
+}
+
+.aboutMeContent video{
+    width: 250px;
+    height: auto;
+    margin-right: 100px;
+    margin-top: 15px;
+    border-radius: 30px;
+}
+
+.content{
+    margin-left: 100px;
+    margin-right: 50px;
+    padding: 20px 20px 20px 20px;
+    background-color: #f7eeef;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+    color: #7D7171;
+    line-height: 20px;
+    border-radius: 30px;
+    
+}
+.teenage{
+    margin-top: 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('C:/Users/Krishia Janella Sula/Documents/HTML Programs/Initial Landing Page/Backgrounds/neutral.png');
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(66, 57, 57, 0.692);
+    background-size: center;
+}
+
+.underline2{
+    border: 0; 
+    border-top: 8px solid #DD7777; 
+    width: 50px; 
+    margin: 0 0 0 100px ; 
+}
+.resume{
+}
+.resumecontainer{
+    display: flex;
+    
+}
+
+#info {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: #7D7171;
+    font-size: 13px;
+}
+
+.contents{
+    color: #7D7171;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 20px 20px 20px 20px;
+}
+
+.contents dt{
+    margin-left: 40px;
+    color: #DD7777;
+
+}
+.contents dd{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.resumecontent{
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding: 20px 20px 20px 20px;
+    background-color: #f7eeef;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+    color: #7D7171;
+    line-height: 20px;
+    border-radius: 30px;
+}
+
+.resumecontent strong {
+    color: #DD7777;
+}
+
+.hoverResume:hover .original-image {
+    display: none;
+}
+.hoverResume:hover .hover-image {
+    display: block;
+    box-shadow: 0px 10px 10px #7D7171; /* Add a shadow effect */
+    border-radius: 5%;
+}
+
+.hoverResume img{
+    width: 200px;
+    height: auto;
+    margin-right: 30px;
+    border-radius: 30px;
+}
+
+.goToTop {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Ensure full viewport height */
+}
+
+/* Style for the fixed text */
+.fixed-text {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #DD7777;
+    font-weight: bold;
+    
+    
+
+}
+.fixed-text:hover{
+    color: #7D7171;
+}
